@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comprehensive Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Unit Converter</h1>
+        <div class="input-section">
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <select id="inputUnit"></select>
+        </div>
+        <div class="output-section">
+            <input type="number" id="outputValue" placeholder="Converted value" readonly>
+            <select id="outputUnit"></select>
+        </div>
+        <button onclick="convert()">Convert</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
